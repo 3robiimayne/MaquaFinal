@@ -1,0 +1,379 @@
+/* Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Variables and base styles */
+@layer base {
+  :root {
+    --primary: #D90429;
+    --primary-dark: #BF0426;
+    --secondary: #118AB2;
+    --accent: #FFD700;
+    --dark: #1A1A2E;
+    --light: #F8F9FA;
+    --gray: #6c757d;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    overflow-x: hidden;
+    height: 100%;
+  }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+    margin: 0;
+    position: relative;
+    min-height: 100%;
+  }
+
+  h1, h2, h3, h4, h5 {
+    font-family: 'Playfair Display', serif;
+  }
+}
+
+/* Layout fixes */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  padding-top: 80px; /* Compensate for fixed navbar */
+}
+
+/* Navbar aanpassingen */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: rgba(26, 26, 46, 0.8);
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 50;
+}
+
+/* Schaduw bij scrollen */
+.navbar.shadow-lg {
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+/* Zorg ervoor dat de container relatief is voor absolute positionering van de middelste navigatie */
+.navbar .container {
+  position: relative;
+  max-width: 100%; /* Override Tailwind's container max-width als nodig */
+}
+
+/* Stijlen voor de middelste navigatie (desktop) */
+.navbar-middle {
+  display: none; /* Standaard verborgen op mobiel */
+}
+
+/* Stijlen voor de navigatie-links */
+.navbar-middle a {
+  color: #fff;
+  text-decoration: none;
+  position: relative; /* Voor de underline animatie */
+}
+
+/* Hover-effect voor navigatie-links */
+.navbar-middle a:hover {
+  color: #ccc; /* Behoud je oorspronkelijke hover-kleur */
+}
+
+/* Hero section */
+.hero-bg {
+  background-image: url('kmska.webp');
+  background-size: cover;
+  background-position: center;
+  filter: brightness(0.3);
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.min-h-screen.relative {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-heading {
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero-subheading {
+  font-size: clamp(1.5rem, 6vw, 3rem);
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+
+
+
+/* Buttons */
+.btn-primary {
+  background-color: var(--primary);
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(217, 4, 41, 0.3);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--light);
+  border: 2px solid var(--light);
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-secondary:hover {
+  background-color: var(--light);
+  color: var(--dark);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.2);
+}
+
+/* Timeline items */
+.timeline-item {
+  transition: all 0.3s ease;
+  border-left: 3px solid var(--primary-color); /* Aangepast van --primary */
+  position: relative;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  overflow: hidden;
+}
+
+.timeline-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.timeline-dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary-color); /* Aangepast van --primary */
+  border-radius: 50%;
+  top: 0;
+  left: -10px;
+}
+
+/* FAQ styles */
+.faq-item {
+  background: rgba(255, 255, 255, 0.05);
+  border-left: 3px solid transparent;
+  border-radius: 0.5rem;
+  margin-bottom: 1.5rem;
+  transition: border-left 0.3s ease, background 0.3s ease;
+}
+
+.faq-item:hover {
+  border-left: 3px solid var(--primary);
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem;
+  cursor: pointer;
+}
+
+.faq-question i {
+  transition: transform 0.3s ease;
+}
+
+.faq-item.active .faq-question i {
+  transform: rotate(180deg);
+}
+
+.faq-item.active {
+  background: rgba(217, 4, 41, 0.1); /* Rood met opacity */
+}
+
+[data-theme="orange"] .faq-item.active {
+  background: rgba(216, 151, 70, 0.1); /* Oranje met opacity voor thema */
+}
+
+.faq-answer {
+  display: none; /* Standaard verborgen */
+  transition: all 0.3s ease; /* Soepele overgang */
+}
+
+.faq-item.active .faq-answer {
+  display: block; /* Toon bij active */
+  padding: 1rem 1.5rem;
+}
+
+/* Form elements */
+.custom-input {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: var(--light);
+  transition: all 0.3s ease;
+}
+
+.custom-input:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: var(--primary);
+  box-shadow: 0 0 0 3px rgba(217, 4, 41, 0.3);
+}
+
+/* Scroll to top button */
+#scrollToTop {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+#scrollToTop.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.animate-slide-up {
+  animation: slideUp 0.8s ease forwards;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary-dark);
+}
+
+/* Footer */
+.footer-social-icon {
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.footer-social-icon:hover {
+  color: var(--primary);
+  transform: translateY(-2px);
+}
+
+/* Lazy loading */
+img {
+  loading: lazy;
+}
+
+@media (max-width: 1024px) {
+  .hidden.md\:flex {
+    display: none; /* Verberg desktop-acties op mobiel */
+  }
+  #mobile-menu-button {
+    display: flex; /* Toon hamburger-menu op mobiel */
+  }
+  .navbar {
+    padding: 15px; /* Kleinere padding op mobiel */
+  }
+  .navbar-middle {
+    display: none; /* Zorg dat de middelste navigatie verborgen blijft op mobiel */
+  }
+}
+
+/* Responsive adjustments */
+@media (min-width: 1024px) {
+  .navbar-middle {
+    display: flex; /* Zichtbaar op desktop (lg breakpoint) */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Equivalent aan space-x-8 in Tailwind */
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    padding: 0 15px;
+  }
+  .animate-bounce {
+    animation: none;
+  }
+  .aspect-w-16.aspect-h-9 {
+    height: 200px;
+  }
+  .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-3 {
+    grid-template-columns: 1fr;
+  }
+  footer .grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  footer .flex.space-x-4 {
+    justify-content: center;
+  }
+  .min-h-screen h1 {
+    font-size: 2rem;
+  }
+  .min-h-screen h2 {
+    font-size: 2rem;
+  }
+  .min-h-screen .flex-wrap {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .container {
+    max-width: 80%;
+    padding: 0 60px;
+  }
+}

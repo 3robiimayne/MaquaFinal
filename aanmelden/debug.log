@@ -1,0 +1,750 @@
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTI4MDcsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTMxMDcsImV4cCI6MTc0MzE5NjcwNywianRpIjoiY2ExZTViNTJkNzUxYWNjYjg5N2FiZDc4NzZmYmY5ZWM5ZDE4MzJhMSJ9.ItOxC55MpLb5gwz_SBrj9qFqFzcS00vgjdeHFQDQK9EmT6Ng_8blo62NPom8rizZ-315AsXpPy1dorKmL9iasTPSnEQoYMjQrms8KprtlSAK3GwFzldGHxGGQribrbp6RIgVyxw_JPi1X7pCY6Zmjcox42nSlxnZmocVIecMGM4_U2Aj9xGZXHwIvwauKSP2pKPh61vGfaK1LgHRlhti1-RU7HZrlha4-pSGGgtHJbC9a1UUn2g79jOqqJACaSyXHyD0S8ccIrRg_nniLOBZCsb1qAFjrEssrunoIqla_vHuWW3z_gCvnugmiRamhGKeO1jfFU0frhrztkMznYpn4g"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743192807",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193107",
+  "exp": "1743196707",
+  "jti": "ca1e5b52d751accb897abd7876fbf9ec9d1832a1",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+User exists, redirecting to: /Maqua/aanmelden/complete-profile.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTMyNTUsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTM1NTUsImV4cCI6MTc0MzE5NzE1NSwianRpIjoiZWJmMTUxZTgwYTczOGRmYWNkOGNiZjQxYWEyNjkwMGQ4MGMzZTQyZSJ9.KVx7eZ7QWrY9Wmn70WZYVsK3dcWFeOlEM6HeUYceKSlOw1A9xJldndURv6N8Z7FrkByCciuKBpXAGD4XXSsz8-A-P2jJBZKj4GC0jm8CquOTgvsMM7ImSadI-Do_rDxiOXHhfX0uUX12ohDwi-8Y5nyN2a9_0Za7PTYu6SGXcsE0bWS6fh-hySc3uol_YDkihi8aTK-Q1FVuzAB8fyTv7fCEuIQMu5TdSFDvPjmz-O3ORk5dw1xHZsC2LI_6Ag3Zay8qu_9ezAzKb21rztFwYhMCCUDkEtUFG-quD6FaReywg2X0z8O_YCUSTdl73v0lbXk4xZ2T2dlFFm8Qg0hiHw"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743193255",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193555",
+  "exp": "1743197155",
+  "jti": "ebf151e80a738dfacd8cbf41aa26900d80c3e42e",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+User exists, redirecting to: /GIP/index.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTMzMDEsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTM2MDEsImV4cCI6MTc0MzE5NzIwMSwianRpIjoiMTQxMDk4N2MyMjZmZThiMmM0OGQ4YjYyNWQ4ZTQ5YjMxY2JmOWM4MSJ9.QY-ACUfxVNFX-VJNE6CLdfHfvkInP7vxhFOdG01i_WoFvEHLSWlzbveaipQqG2mc730-z8QQPo1CvQSA6ws8j-Dzsg5u4YDWaFxSl0OzOtmjKH5nSdCUK6raYypwicOAGmPWR5EXhP7Nl3LwBBL4i7wKn9tvTI-7pA8cqPtY9iSi239RgA6MvEPSlbQFJFJ6PHcZ4as1nrJONB2C_D7J8ESksjzpXebB7qdMrnKR2_xeov2V6wu9FFysDn6T66t8DJX-uLEIvc2X-Ou_yml7eHECxSPwyyeF6s2bk-oZhrAlgXI156nGJWNfKcohtPB3JCO0iE-3XFHDk7tmBmc9rQ"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743193301",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193601",
+  "exp": "1743197201",
+  "jti": "1410987c226fe8b2c48d8b625d8e49b31cbf9c81",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+User exists, redirecting to: index.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTMzMDUsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTM2MDUsImV4cCI6MTc0MzE5NzIwNSwianRpIjoiYjYwMjMwM2QwOWU2OGE3MDBhYTQ3NzdkYWY3MjBlM2RjM2I3ZGVkMiJ9.TUyCNnXzcUZqzsRhNpiPCJXl7d38TtgBl3V4tt0p7_hiGPSdIOTSu13BRnoKxRB90fG_4RE1fYu4UcrgkbMx6Hp2CpF4lMY5pmTIGxRZAhUTkMWvyITsuEbyPqAIljGZrqm_Gk6JY0V0r_tB6pW_62ZZL7eZwjKFU-5j00TRFCXHoEe3o8fatPEcZNVuB1yvi6s5hWyKGNgaJsjvxMjGh9DfmKwF7bDsvk_WsKbZ16yRL4oauOfQ25Vdo6wMWy5JpChd3WtOyGWYnwAF30Vy7Q8egbJ5RaCNEToWpMXMf_jDgo2n-NG2tGCuiyAck7vXGeMVk26_deUEr-zsNANHUA"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743193305",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193605",
+  "exp": "1743197205",
+  "jti": "b602303d09e68a700aa4777daf720e3dc3b7ded2",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+User exists, redirecting to: index.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMTkzMzY5LCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMxOTM2NjksImV4cCI6MTc0MzE5NzI2OSwianRpIjoiYTkwZjAzNDk5ODA4ODFiNzA0OGU1YmQxYjAxMjJkODVmNDc3MGE0NiJ9.UbdZiguyUVhfxIp2nWuul-mGVtyCxM4E8khkZ9ph7k19XMBhrMIh724wVNpDvU_RwmO85wIo1C2V9lGqG6idCKISwcM88AE4PABkRnS2fPc4CQHRjri2U2i3zcWEBv_2aD2Duz_ErziGRgW_PzQYUHii3mZqlhDu1GrlAABlFN9FIJT_oCRXaUN16TZd5wA-EIW3qjtVIqxWJwve7IZBOyF7TGsAI9Y4M-T2t7-tu0BEO2GZfj4hKwrri856KZhULdAPERfE4HgVHi6xrWsWK2aPm5fg9VVNFazR1yvB7u9DNbMwiO6VlGA2T8RIusO8INUV5LiOQN_Np_pHIaSRKg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743193369",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743193669",
+  "exp": "1743197269",
+  "jti": "a90f0349980881b7048e5bd1b0122d85f4770a46",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+New user created, redirecting to: /Maqua/aanmelden/complete-profile.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTMzNzcsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTM2NzcsImV4cCI6MTc0MzE5NzI3NywianRpIjoiNGFkZTg4OWIwM2NkM2E2ZGViZDlkNTJjOTI5ZDBjNTE5ZWY2OTI3ZiJ9.Rhcf24JN2SSE_oZhujtX1_EAja5DwQMg5FES29RZCiIVa6xIa6buLzKASTXDgjo1_VAUKK1ULGO47WwBWkDm7fQd4iQiYX7JuF4z_x1KzYqBMuSXjHpkBw8SNdSSVrBDU4gbaz4q8xkHtgr9BzbMpLmgYwvuLJL-vXQlDTydFR5YS80ET3Z0RQ0PzmoX0HUSaipRGA2-OfcGy1GgKzg6KuU82BArZzol_l5kkZdYR8-Tq_vCba8W1eL96LPt-VLDlOMk-C4xhdKV58e2TBrQUjfhxST6k5SdqCwJd7erpnfi1DJEsq1CdD4bmQX447JyFAT1Ghls28EGDtcv_e3yLA"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743193377",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193677",
+  "exp": "1743197277",
+  "jti": "4ade889b03cd3a6debd9d52c929d0c519ef6927f",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+User exists, redirecting to: index.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTM1NDUsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTM4NDUsImV4cCI6MTc0MzE5NzQ0NSwianRpIjoiM2VlYjU5MWQzNjEyNjk3NzFmMzkxMTU5NzY1MGMyNDI0Mjk5NjQ5MCJ9.LXzsqVe1GqJ2wH394uR6AHyjaT1rB_O34QKjG9QiWnXe5R4e30f_mY8H_Plin-4HXADxzuUKyFeiVU4waWI7g3aS_tJtbBirMEj2DAE0JbCJuVvdTuWwfEqxlJRy7J5Ng2gharq-_ksnXLOyGX9da4topfUvA9T8yTwPCR600_SU6zJHvS2j97HCWTt1SFYd-7TfUrm4-Mp1kNdzrZiGJXdJJBIlsLN4z2i8agRnI84yohg3wFp0wWiXEXlHPJ8USlFg2XeVgTUebdmzYjva2J88hCDTCH6yhvJmwHhNh-DIDiNgh64tfwDD0utATDPwkt9sWsSZRrY1Uiz1zLekXg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743193545",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193845",
+  "exp": "1743197445",
+  "jti": "3eeb591d361269771f3911597650c24242996490",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: /GIP/index.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTM1ODcsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTM4ODcsImV4cCI6MTc0MzE5NzQ4NywianRpIjoiOTllOTdlNzdmMWUxODlkOGUwOTQ4ZDM3N2VmZmNhYjQ0ZmRiMTg4ZCJ9.XD_Pze-kl3YBwYCQPmpp0YP75OPEjg8OaYEtEb11chF7NL6QCpx3REHOfjjLZkz8-3NMfWvwLXwyaMWM5aJzZoDEmawKd-uJwNNzW8jm-gJWxjZTES22BVEghr24RgS-OM3TfrKrwg7BY7ksOhSRKVFVNmqOeHRY_Bx6j34Km46g4GmBab9Xvg_idDiF2XXR0S-suDWOFiSkkID0zoiPSWYyf1V5pvxAQDibvEqOuBZyVxfoXZMlxH3W0XHDUJsZ285FSPJfB05eZWbb185QyI5j0bR9uYu_4AHXmHdHnDUau8XkOOm6EA0O1qjDBQO-7D7L4XyFSJ9EmS9bqqb3RQ"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743193587",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193887",
+  "exp": "1743197487",
+  "jti": "99e97e77f1e189d8e0948d377effcab44fdb188d",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: index.php
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDMxOTM1OTAsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDMxOTM4OTAsImV4cCI6MTc0MzE5NzQ5MCwianRpIjoiMzM5ZGQ4MWU2ODU1Y2I4MjNlNWNlMTUyNDVjNjljZTA3MjBiNTc2NCJ9.X_V3XmDy4AgBl6-siNAciri1SAus4-qV2DRJALziwCVH8PXUKI3rFgD9Xbqxv4_il0VsgRms91-wfSrvDvJqLkpYqwNQR2BLZDC8lJyy6GnE1XgGPJcZVn13qC6rrJTJyo0HmE1JLBYeDudGW1xzAzDemWKBUNp6b35uVm1p26taAraDFcxrRRR7-dYZSzYA4hS-rxjlT5ClqaJrEScTDrsw0-k6loDtgMo5miuasjyMEkUl3ycz0kSl0CfzGrBSDPgpXb8kfgVOm1hHnFPb1Sjwv70AVbJ_cvAdismLweVS6t9XPZZ5q2iOUcjhwe-Gfj2QE2zXm7ZdmqNxAS6YMg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743193590",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743193890",
+  "exp": "1743197490",
+  "jti": "339dd81e6855cb823e5ce15245c69ce0720b5764",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: index.php
+Request started at 2025-03-28 22:50:34
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMTk4MzM0LCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMxOTg2MzQsImV4cCI6MTc0MzIwMjIzNCwianRpIjoiZDBlMGJkMWNkNWMxODUyMjU3NWY5MWEyYWVjMDcyNjcwNGRiNzgxYiJ9.BM0ukWY8oXwvGlgNq1w22Zzr4Uq9FYsc-S_yhEvcwRBY4x5IT6ygOgU7x9JgNg_7h35pyv8MyJn6FFjkJOMs-Q0Cw0rGaD_Vjysfyu86QNIAaJB78H6_kkNk3Yyp3iHBzks3CB_l5bs7iWNXNngCOMfjttD29PKoM8i6-wuXxKlWweaVoyTW2i0XykUPkmZc453lXGKTlD5cn22naEQO6a9_QtMcYQqv75p7TNIKCiLImkJyZOpoeNY2ooxcsrfmNHV3Oeub9-zIaIdBpututxxmsnzi6gFoPiZ_dL6iCHCN1xZFkbEFro5snzYBM4ucaBVs50oXgpMFAdwEeRYqDg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743198334",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743198634",
+  "exp": "1743202234",
+  "jti": "d0e0bd1cd5c18522575f91a2aec0726704db781b",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: /aanmelden/complete-profile.php
+Request completed at 2025-03-28 22:50:34
+
+Request started at 2025-03-28 22:55:51
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMTk4NjUxLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMxOTg5NTEsImV4cCI6MTc0MzIwMjU1MSwianRpIjoiYTRhMjEyMmNmMWIxNGE5OTA5YzNhZWU4ZGFlMGQyOGJhYTI5OWY1NCJ9.X30D-QF6Q0qu3RrwIgwbsruxRPc-UazHAaYyWoYL8zVrtTadvkROl04VlsIbC2ngHSZTAZxmp802a8otAV-yU6C-l3NtieW951uP-q3cl7ZEH-e5MhkDuk-tsp0ZRRMbM9Ny6wEPpRbXLBXSAonBUL7G6V0dKUE5WcP7p83AaX68qTMjQDWIqiDiI2rJgBcyIyHoDqqpXzc4cGX5zXP-33y4hYnTa4jm7gGKZ9G7dpofreLUqvNNw4fd-PUAhhx8PnDm6sPYcdLI7knWLzmlBUTWgzeRZjNBPjTcvI_qxWCVj0K19IVK-FHcG_HQ7OOKEHH1zxSNQVU3BiqKhJs7eg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743198651",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743198951",
+  "exp": "1743202551",
+  "jti": "a4a2122cf1b14a9909c3aee8dae0d28baa299f54",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: /aanmelden/complete-profile.php
+Request completed at 2025-03-28 22:55:51
+
+Request started at 2025-03-28 22:57:13
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMTk4NzMzLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMxOTkwMzMsImV4cCI6MTc0MzIwMjYzMywianRpIjoiYzJiMzIxZDU3YTMyZmZhYWE4MjBlNTBjODgyMjIzYjQ5NDk0ZDhlNiJ9.ODl-IsIUpYFl_MVPC2rjreaXsggAffpRyhvDIOfiVjfEekUkdgpiwen62QyEH9B-sgOJNnJO5d6p9dTJ4fhzPB5PxceqtKitrjPjdN7-EwDdH9qWFZlYGRZ9wML2JcL332MrcKks5UMRMI-h1w4nJMMijuAZU0qf2iRx4KwBERs91L8an_EbHx0F199MJ1hd-eoy4ZrMpBl7CBsm84MNRXUeJGSYSETZoxE8YtfiBvJojZ8ProXs4UiAkXouefbG3Q06qWGXg4_xIYd7bZmt1KotG52HNI8wWfFwtSSnkfce3QjaUQRh1xzhZQi8O74JjRxU2Mv5IhI_YjQd3xHm8A"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743198733",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743199033",
+  "exp": "1743202633",
+  "jti": "c2b321d57a32ffaaa820e50c882223b49494d8e6",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: ../registeren/complete-profile.php
+Request completed at 2025-03-28 22:57:13
+
+Request started at 2025-03-28 22:58:03
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMTk4NzgyLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMxOTkwODIsImV4cCI6MTc0MzIwMjY4MiwianRpIjoiNzdhNDIzZjBiMjZlNGRiYWE1NmY5ZmVjNmMyNjAxYzRmZjFmMzU1NiJ9.dpmUE1eWwWS7o6OpP3BMJg6WL4S4USmsbKFEkS3aNC4a5l-Tp0J91oy_hgWpkfwkFmavx29habOZKX4PACm449ZwaJXkK7pkhXGtN0Z4zrn7pm3f1USyYIScdpYjpQmOeP4OYYaeQT4UywnTXWSxJKeWjprkje8VkD7x6Nr9uXtfeyUTNkyPY06Jnh0Ud2YQOBfLzjlvjHCj61chO8jLrVJfBuyujAXj2YVFNBVbzEsowvyl8aPzEU0hsNUY9-7373fBDGaRVU0m9WtWZlU3UKUHJqIglqUTXJBTaLWazX6_NoZydqeamwYl4_h2zXb4bFl95Hco3KION6gVBQLUvg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743198782",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743199082",
+  "exp": "1743202682",
+  "jti": "77a423f0b26e4dbaa56f9fec6c2601c4ff1f3556",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: ../registreren/complete-profile.php
+Request completed at 2025-03-28 22:58:03
+
+Request started at 2025-03-28 22:59:06
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMTk4ODQ2LCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMxOTkxNDYsImV4cCI6MTc0MzIwMjc0NiwianRpIjoiMDY1NzJkNTljZjc3NGNlOWQ4NThhYWNjYzlkZTBiNmVhYWVkNDc5ZCJ9.RGEhxbf1sJlpwSz9jA5Ux7jiiYo84mjF3NIiOk1BKNGgGlsxJ4aSmIyuMaRbwK_KtFL5CDDdpKPnZyf_poRlDYlT7-Gs2Bqgvz21sTYzB5VT-jC2wsJqss-4NRjdyGSNObz456VsvDb-FKbVRGDlmBbcyMLQRpVOJ9B-v_0swDFj90Qsk4yAuGnoiVNV4J73zvjzhIFZfyrVN296K_zsiTCj8CyGVavSpmqjwg0rCiNUtAgOhklEJUUS1zeClyEIDWyCxs6Eu99zgt5cdwYVc55UkfzF410-YL2kP6UhAQXr0d61fbuwIvUfmOjah6bCj0HbbH3Qz8NZ-NOopt4xUw"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743198846",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743199146",
+  "exp": "1743202746",
+  "jti": "06572d59cf774ce9d858aaccc9de0b6eaaed479d",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: ../registreren/complete-profile.php
+Request completed at 2025-03-28 22:59:06
+
+Request started at 2025-03-29 12:19:11
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMjQ2ODUwLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMyNDcxNTAsImV4cCI6MTc0MzI1MDc1MCwianRpIjoiZTYzM2UwYzU1Y2NkMmJkY2Y1NzYxYmU2YTg4M2VjZWMxYTUzNWViMiJ9.GCjrDjUrBT0i0W-rF9CZL2sYsmgaXT8N0yoQw_stLRjLF1uw2oA0WCIgm67Y2TN57iG3B91T8lxypVvJnkUays1nwADd93ylk3WKkpLTtVXPW-mHd8xpqYLcszjXj1J0emNCZQZU_r_1K7Uv8IWFqW-t4PezFnO1q3r3vJbBWKMjYQZ-RVNy-hgWlfRSWskfgc1WubllKaAW-zo7OheVJ5oYAWJPvsaWdbE-JGoSFkBXzrt-sYerfs3vhc7UZsHc9Tm0sJNTWTz3hI_NL-3nCz7wERLxMT1DHfyOeD4ViU3DhCU4fIgKuDlrOdlhqu90oM8cqBtTu1y26VzjuIYCBA"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743246850",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743247150",
+  "exp": "1743250750",
+  "jti": "e633e0c55ccd2bdcf5761be6a883ecec1a535eb2",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: ../registreren/complete-profile.php
+Request completed at 2025-03-29 12:19:11
+
+Request started at 2025-03-29 20:49:32
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMjc3NDcxLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMyNzc3NzEsImV4cCI6MTc0MzI4MTM3MSwianRpIjoiMjM3MDQyMTQ0MWUxNjA3YzZiYzMyNDE5MWJiMWFjMzQ4Mjc5Yjk4NCJ9.IoUMAoTEAria9r3QHEAiAA6Jn-22EcLXC_-JrZlTE04HHInhXKeL08xcR_Y3DAGXRHujv7ckfC8cXQ701CUwIG1_NggO2SPVSyrkr-pogJ50n8QEs6dtnDgkwrWZ86wdi8TwB6CbUM0mCHbL_AHCvwc2Y1rA-VQCt1wk4FZXYz-gOzqIWzuBbnctNVXbPbkJZkKVBP74J_h2a7AILZxaVGqxUCRJ3Yx3pfkt1MXDZ4YZLFflAjoG8sXHBPh9RAUowrJBqRYuH90BrBuxY77CuZAoorV2txOx0YUzl9nCEb8qq6b4c0xtjhzYEPudePc7jJWf00fv-JejpBKZNvYSyw"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743277471",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743277771",
+  "exp": "1743281371",
+  "jti": "2370421441e1607c6bc324191bb1ac348279b984",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: ../registreren/complete-profile.php
+Request completed at 2025-03-29 20:49:32
+
+Request started at 2025-03-29 21:27:10
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQzMjc5NzI5LCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDMyODAwMjksImV4cCI6MTc0MzI4MzYyOSwianRpIjoiNTYxZTk0Mzk2ZWYwYzE0NTIzODliMDlhMjBiODI3MGU2ODk4MTYzOCJ9.JUuN7FgBxlUX34s8B7CcC_pUl2ywHgYJiDBr5iNzwvCXslT_2ASS1jj-lcaQH5rn5Yijqt4NWgk45GiXVjETW03oDpMmHxighCK7lHO-ip6OXtsYuraV8V2dU3abCp9_3x1lBZaAySE9gPR895X5kw-ofMgKZWQQDcbNYYOcTLqp15ZdY9u2QS-e_LI1FghUPOQMy6AFXkF0V3F-ao-ALMfsahnyTkK7IJ5PJWUQihmeIeElfeUpaE7AlQt58f6VlXxhD96BbRrX7KYZbNCSAtHutMKJAciBVo8ukjClc0kgIJefLwThp5zPxxmsGdDgucu1CgWZEZr3noyBz4mMVQ"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1743279729",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1743280029",
+  "exp": "1743283629",
+  "jti": "561e94396ef0c1452389b09a20b8270e68981638",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: /index.php
+Request completed at 2025-03-29 21:27:10
+
+Request started at 2025-04-02 18:47:10
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDM2MTIxMzAsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDM2MTI0MzAsImV4cCI6MTc0MzYxNjAzMCwianRpIjoiZjQ5Y2IyYmFmODE0MDIxODI3OTE1OWZhNGViOWZkN2Y2MzJhZWNjMCJ9.gKrFfPUTYeZOQIlZjoi5x52n4I-c_EQCW1RBjmsG2GKlM22nGbzs9xOBGmqMQ2-IEQ2WfhrNT_H3EGX_X97cwBuFJB-hXHd_AUJ_j5ylr73O_KVVuh7stlHCGueXiNdiT0wq1dVGdy1VmniCR66IscS7O_E7Ue9iuN6fu3pmzoTfxP6k8RMZ_U_JrLMZiQGz4es6iKUNx3MdTOupbC6d-wGQJGmiYonNKi_LOqoq2_4G-h0ujDqwuuWP0X3pM8-eOHe-Oe_emRpWKIYXffSFcN-iNuvryg2yFsGPkqPxV6EE10ahErHi3PLPf9w2BV5C0oekWk3wDSIecGoEYEbIKQ"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743612130",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743612430",
+  "exp": "1743616030",
+  "jti": "f49cb2baf8140218279159fa4eb9fd7f632aecc0",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: /index.php
+Request completed at 2025-04-02 18:47:10
+
+Request started at 2025-04-02 18:47:15
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDM2MTIxMzUsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDM2MTI0MzUsImV4cCI6MTc0MzYxNjAzNSwianRpIjoiMzI4Njc0ODA0OTJjM2NmMTJlM2QwNGJiZTIyNWM3OGRlNDU5ODI3NCJ9.KJGn83GKhmkmgpfpFX_hPpF6PgflBqVPRYgAB3ZBE8Ye7lgmHDEFu0fTbF7zNx797FHz-PoDFIvq191xH2mTt56mDgWqHRq-3QX8L-r1v5r5GAcrNfGgo6tCodC_J-JECMAge48iG4UcPtbX2BXtxBi9DEk-coOL72vyyJAsrw2RP8NpWTbXAYZxvQMwHGP2sRz7PTjfep6abvvI40QymG8PxqJcOgBN18xVPv8choXfJ-yxv23cK5DhoESTAWhZFDp_yQgwdMyN9QKs2RMQ-O6CO-ewEgIrJrbrYJ0eJpNwN_tewntrDWUyyEBp6qFS-qwYzcc-Xl3u-N2kNi-80Q"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743612135",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1743612435",
+  "exp": "1743616035",
+  "jti": "32867480492c3cf12e3d04bbe225c78de4598274",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: /index.php
+Request completed at 2025-04-02 18:47:15
+
+Request started at 2025-04-02 19:19:31
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjgyMWYzYmM2NmYwNzUxZjc4NDA2MDY3OTliMWFkZjllOWZiNjBkZmIiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMDU5Mjk4MDQ2OTQ3NjUyMTY3NSIsImVtYWlsIjoiY2h3cmxpYW1AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc0MzYxNDA3MSwibmFtZSI6IkNod3IgTGlhbSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NMbUZoTTdZOXlyNE96aGhWdFd2ZmEwbDVKN1ZFT0dPbF92ZnRLaEJaeUMtSmNsVGc9czk2LWMiLCJnaXZlbl9uYW1lIjoiQ2h3ciIsImZhbWlseV9uYW1lIjoiTGlhbSIsImlhdCI6MTc0MzYxNDM3MSwiZXhwIjoxNzQzNjE3OTcxLCJqdGkiOiIwMWJhMzJiOTZmMTQ4NmQzZGY4OWY1YjNlYzAxMjU5NjZjZDhlNzVlIn0.CknqzlysKpW9C_TG4nJWfzccdrlOluWimIQ7qgClP9gDRIt9c3XKXmufOPZTCAM-XFOEbOY5rtW74r5SNKKmtzRksJz001fPHd61fRbr910BqbYVERBBMOc7Dv0JRoGpog9eSHKgB8VjtIcI81xi8bsI4oo2toP2YsmBrHDkBvgttvZsOoRBCDFjVRIZB_Pes9ac8i20FIni6pS1pvPn4a2AAEBOK6EbqYaafVOJHrkMWhesOgaqD7k4wT9ySq9W6DdM0o4ApsKRf8Pm1tEqqbSFQFabkZ3TKStyIwnK9P5Tu-ddaIuaHVLe0AVRoQGTb-sT9JHZyF-vCIG7RdcfQA"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "100592980469476521675",
+  "email": "chwrliam@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743614071",
+  "name": "Chwr Liam",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocLmFhM7Y9yr4OzhhVtWvfa0l5J7VEOGOl_vftKhBZyC-JclTg=s96-c",
+  "given_name": "Chwr",
+  "family_name": "Liam",
+  "iat": "1743614371",
+  "exp": "1743617971",
+  "jti": "01ba32b96f1486d3df89f5b3ec0125966cd8e75e",
+  "alg": "RS256",
+  "kid": "821f3bc66f0751f7840606799b1adf9e9fb60dfb",
+  "typ": "JWT"
+}
+
+Processing email: chwrliam@gmail.com, Google ID: 100592980469476521675
+Number of rows found for email chwrliam@gmail.com: 0
+New user created, klantID: 24, redirecting to: ../registreren/complete-profile.php
+Request completed at 2025-04-02 19:19:31
+
+Request started at 2025-04-03 11:15:37
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImM3ZTA0NDY1NjQ5ZmZhNjA2NTU3NjUwYzdlNjVmMGE4N2FlMDBmZTgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMDU5Mjk4MDQ2OTQ3NjUyMTY3NSIsImVtYWlsIjoiY2h3cmxpYW1AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc0MzY3MTQzNywibmFtZSI6IkNod3IgTGlhbSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NMbUZoTTdZOXlyNE96aGhWdFd2ZmEwbDVKN1ZFT0dPbF92ZnRLaEJaeUMtSmNsVGc9czk2LWMiLCJnaXZlbl9uYW1lIjoiQ2h3ciIsImZhbWlseV9uYW1lIjoiTGlhbSIsImlhdCI6MTc0MzY3MTczNywiZXhwIjoxNzQzNjc1MzM3LCJqdGkiOiJmN2FiMWY5Nzc2ZThlNjBjMTU1OTBhYzg1MzY3NmMwYjdiZmY4ZDY5In0.cZihcZJHjg3_LB7mFQCsT_kUrMHuHcFQCZ8q9C5YmmVTSrYRC9cePhAm7Tb6i3FPempM0NO_RH0OvBCLb17dWgT3xhpjRf61BV6dU48iH_cpi98UPyxUSUM2oMqhtN5EXydoXvuDreZdXXg_8dgaJB8rVikfaeg23Era34mrzfCGRN9endKcz8imcBTUxfasa5_4BYEDew8j38gXjZBtjK0ZdEo_ADlVBZhLuHwrt60yX1dq-dk7aHazf6q5aZypCKCJjqxsxYthJp7doC1aGFBu_6IDuHkh_s3X8njpLiyMkrBh8uohIacOHh44jIN1IAqKcoKfkC1M6zqKlv8fVg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "100592980469476521675",
+  "email": "chwrliam@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743671437",
+  "name": "Chwr Liam",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocLmFhM7Y9yr4OzhhVtWvfa0l5J7VEOGOl_vftKhBZyC-JclTg=s96-c",
+  "given_name": "Chwr",
+  "family_name": "Liam",
+  "iat": "1743671737",
+  "exp": "1743675337",
+  "jti": "f7ab1f9776e8e60c15590ac853676c0b7bff8d69",
+  "alg": "RS256",
+  "kid": "c7e04465649ffa606557650c7e65f0a87ae00fe8",
+  "typ": "JWT"
+}
+
+Processing email: chwrliam@gmail.com, Google ID: 100592980469476521675
+Number of rows found for email chwrliam@gmail.com: 1
+User exists, klantID: 24, redirecting to: /index.php
+Request completed at 2025-04-03 11:15:37
+
+Request started at 2025-04-03 11:20:33
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImM3ZTA0NDY1NjQ5ZmZhNjA2NTU3NjUwYzdlNjVmMGE4N2FlMDBmZTgiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMDU5Mjk4MDQ2OTQ3NjUyMTY3NSIsImVtYWlsIjoiY2h3cmxpYW1AZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsIm5iZiI6MTc0MzY3MTczMywibmFtZSI6IkNod3IgTGlhbSIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NMbUZoTTdZOXlyNE96aGhWdFd2ZmEwbDVKN1ZFT0dPbF92ZnRLaEJaeUMtSmNsVGc9czk2LWMiLCJnaXZlbl9uYW1lIjoiQ2h3ciIsImZhbWlseV9uYW1lIjoiTGlhbSIsImlhdCI6MTc0MzY3MjAzMywiZXhwIjoxNzQzNjc1NjMzLCJqdGkiOiIwZTBkYTc4ZTQyOTdlYTdkMDQ4NDQ1MjI4ZTdhNjBkNmVmZjc5ZGI4In0.xtc8jfEXin2MxK8aRkdLi1CgiMD6OaDMmQXAQE_1NIL29SczuP8U8lD2dmsXT1iTe9qMfCuDyBF3Rr_nm4igp8YzJh-dT9XbM7mzaDEld0WaNpEo3kMIgKN5wvOmdc3NCBW6ACSCU8Q6Hzfku3vDKmq_Y9Q_-cqLwQjDvZLtgmuvYMDg6PKIDgbWnMzy6FGe-ZLcSdPB1OXqZdPylwLm7vEWDjCISaO9-7xTBMIWsnvYjuaKnC4pXoFbEO4zYaqIN9DKCFZTDmRWoSh2iNoHwIAnlorAAo0bWdXlYI17VJdkBghOzugWDcTqP1Ox5JowUBBnkgwrkK_vgwYpAtIl8g"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "100592980469476521675",
+  "email": "chwrliam@gmail.com",
+  "email_verified": "true",
+  "nbf": "1743671733",
+  "name": "Chwr Liam",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocLmFhM7Y9yr4OzhhVtWvfa0l5J7VEOGOl_vftKhBZyC-JclTg=s96-c",
+  "given_name": "Chwr",
+  "family_name": "Liam",
+  "iat": "1743672033",
+  "exp": "1743675633",
+  "jti": "0e0da78e4297ea7d048445228e7a60d6eff79db8",
+  "alg": "RS256",
+  "kid": "c7e04465649ffa606557650c7e65f0a87ae00fe8",
+  "typ": "JWT"
+}
+
+Processing email: chwrliam@gmail.com, Google ID: 100592980469476521675
+Number of rows found for email chwrliam@gmail.com: 0
+New user created, klantID: 26, redirecting to: ../registreren/complete-profile.php
+Request completed at 2025-04-03 11:20:33
+
+Request started at 2025-04-10 20:55:41
+Raw input: 
+No credential provided
+Request started at 2025-05-05 15:00:54
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA3YjgwYTM2NTQyODUyNWY4YmY3Y2QwODQ2ZDc0YThlZTRlZjM2MjUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDY0NDk3NTMsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDY0NTAwNTMsImV4cCI6MTc0NjQ1MzY1MywianRpIjoiYjI4NDU4ZDQxY2JlYzJkNDNmZGUwMDc4N2YzNDYwMGUwYzJmODgwZSJ9.FQMv7RkWz9r0bYkmBw8n3R7gcr44v2qe52rEQ8Y11yezlle-NPP5iadDr4ewAGAPYBzDi0u1sr0qnBcGNoTZkUuWaE70GeSRgSfnxj4c_eEuvmVJ2dssBiv821nrdoKMQ7rrDAj_6YOQ-tOG7PZgZGjAfbjVTcHkYRZzjEk4EbdMNsK9-Jt7U_mZYnzaPIhqj26GYEw4D4dwUyta6FO0L00VRKzgN3JPywYwNutlkidjua18KQg4w1zd_r-ikhCJR1oZvL9j3iGld50Fcj09CLrE9yHPlQvGbTP8UzGMDI6Bc_TfVUdWFB2P3rUenHtwQwKEYOK-DpHyCN8lr6iCYg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1746449753",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1746450053",
+  "exp": "1746453653",
+  "jti": "b28458d41cbec2d43fde00787f34600e0c2f880e",
+  "alg": "RS256",
+  "kid": "07b80a365428525f8bf7cd0846d74a8ee4ef3625",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: /index.php
+Request completed at 2025-05-05 15:00:54
+
+Request started at 2025-05-05 15:32:21
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA3YjgwYTM2NTQyODUyNWY4YmY3Y2QwODQ2ZDc0YThlZTRlZjM2MjUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQ2NDUxNjQwLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDY0NTE5NDAsImV4cCI6MTc0NjQ1NTU0MCwianRpIjoiY2QyYmE5MjdhN2RhOTlmYjQzZWU5MDk5MTRhNWM2NDVkYmY4MTZkOCJ9.dBJJa0w1ppWl1tLEL2P56fNBJOhxB1S0kRndEQDM8DIn6ypzSdk6Gd3_i4zgutqyewW_FRHEbm4w474j7kJeorEjp_LXX5W3-qdE86YGSRqRiaMHRQtuTglfIyDu07M4wFG6bgwXrqTsfW208uE47Z9hw7AtJ_aFl-wlL2LiL08eba48g_pcQHocfRiNvp4nzGqcr7b6DFNlymtoWA8FaPSW7tmiWqin3LwTFZxWefkFs719iLo93ovO_h1_EYCsH1yVpkvBPzkqIfnQtvsEKK2mqu-Oq3bSPn-5ezv6RimGK4TYzJ24gVON1mKxeBVpkkjePIDJeVXIcaM2Z5VPSg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1746451640",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1746451940",
+  "exp": "1746455540",
+  "jti": "cd2ba927a7da99fb43ee909914a5c645dbf816d8",
+  "alg": "RS256",
+  "kid": "07b80a365428525f8bf7cd0846d74a8ee4ef3625",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: /index.php
+Request completed at 2025-05-05 15:32:21
+
+Request started at 2025-05-05 15:32:45
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6IjA3YjgwYTM2NTQyODUyNWY4YmY3Y2QwODQ2ZDc0YThlZTRlZjM2MjUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQ2NDUxNjY0LCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDY0NTE5NjQsImV4cCI6MTc0NjQ1NTU2NCwianRpIjoiNTEyZWVlZDNkNDRiYjJhMjYyY2NkZjE3YjFhZjMyODdjOTUyZDlhMiJ9.NYfIy9p2weFTas1Dlg-CAPlSz53RMc9h897mRpEfQ5vOvtHffTghwA6qrEP4F6ihjorV_R8uEqmIO_CRP5pXmZtfdI5re0QP1iw1qSlTnaQdMcKI_Bsm0MChZPqrTXzBtIS8dGgsp0hKXujBJwybDrSvRODau1DpQHQh7_gCAyqR0VPcaeZ5sd8qukU-zXKsIrk-uJrGxcglG-0PsCHBniTBQizGOJcE__zhir5_zX6pO3P3qUrHOa0BGayugSqBjTN1GfFmpWo_ZbsNp0hPEbmB62zq9m-d88Kyse9X4o2WzvMRUkfVIhk14yNfMSHkrLMyQKyB61DDFedYwGCf0w"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1746451664",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1746451964",
+  "exp": "1746455564",
+  "jti": "512eeed3d44bb2a262ccdf17b1af3287c952d9a2",
+  "alg": "RS256",
+  "kid": "07b80a365428525f8bf7cd0846d74a8ee4ef3625",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: /index.php
+Request completed at 2025-05-05 15:32:45
+
+Request started at 2025-05-11 12:56:28
+Raw input: 
+No credential provided
+Request started at 2025-05-11 13:11:15
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImUxNGMzN2Q2ZTVjNzU2ZThiNzJmZGI1MDA0YzBjYzM1NjMzNzkyNGUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDY5NjE1NzQsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDY5NjE4NzQsImV4cCI6MTc0Njk2NTQ3NCwianRpIjoiMTE4N2MzYzY4MjNmNWJlMjNlM2Q1YmM4NDZhNTVlMDgwNTc0OGU5ZSJ9.h8z89eYYvOVqf2CuEppVtxD2MKAWZ1NOoQ-H_CaK0FTFkw-p3ANxfBIC56xc6SAKMExuPXhLhxNhBK2y_hp6_-o04IQKlqDPk9Y7HcOx4EvF1Yo-tSXA7C1NOvR3tDAbJ89JT1Spln4Ddhfn7ZATx-gSM-2SXxk9THITfzJMGKDJz79-3q8UMmzmCneVUpVcK1-UC9vNLRklCpxt3PofDlDXRLJQgJqvZxtU5D1AT8hL3JXbLSsZLLOx572CrrC5jAjRUeCoNnPd0L1WMPfVdFDul77Bir_jH4UXbrhakHYn5TgUeQXVoyKRYt4QocZ5VU9Wbl43FgIJrEl8sB9cdA"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1746961574",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1746961874",
+  "exp": "1746965474",
+  "jti": "1187c3c6823f5be23e3d5bc846a55e0805748e9e",
+  "alg": "RS256",
+  "kid": "e14c37d6e5c756e8b72fdb5004c0cc356337924e",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: /index.php
+Request completed at 2025-05-11 13:11:16
+
+Request started at 2025-05-11 13:11:34
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImUxNGMzN2Q2ZTVjNzU2ZThiNzJmZGI1MDA0YzBjYzM1NjMzNzkyNGUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQ2OTYxNTkzLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDY5NjE4OTMsImV4cCI6MTc0Njk2NTQ5MywianRpIjoiZmMzNWFlMTlkNWJiNzYzYjg1NzU0YjQ5NjJhMDQwNjcwYTE5MzE1NSJ9.Xqz-6nNk3wJdDA6zY3yUqzWk9vWY7iy0ORGRuPMVdbsQTPU3ll0OcWZF3gOhI5iLxQiKBB24oaJ5PfjAWCQnqtyxUPbZd3oPEDqmS9XOiBmBct2xYV-BdPm7n9x-6dZchorVocAxyS3jMF8kSAi1WqEQ4a5HNZIK7iwNNYymtif92hsSc7Qp2kWO9vJXlyCmCZDQYGbAJHdt5Nef1Cz6FNANQfqifXkviVRNoFpmvKs84HhHT5KFJs2LpTMZCzNLD8rk8jinWxur9O0AGx7qfpRGj79NUexKNN-DTI4PJiHzvN9kx2z3VADW3tkfxGsXeC-_1MJS8e9Zam4rvSCJQQ"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1746961593",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1746961893",
+  "exp": "1746965493",
+  "jti": "fc35ae19d5bb763b85754b4962a040670a193155",
+  "alg": "RS256",
+  "kid": "e14c37d6e5c756e8b72fdb5004c0cc356337924e",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: /index.php
+Request completed at 2025-05-11 13:11:34
+
+Request started at 2025-05-12 09:59:32
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImUxNGMzN2Q2ZTVjNzU2ZThiNzJmZGI1MDA0YzBjYzM1NjMzNzkyNGUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwMjcxMzAxNTgyNDQ1Njg1MDc5MyIsImhkIjoiZWR1c28uYW50d2VycGVuLmJlIiwiZW1haWwiOiJpc21haWwuZWxib3VnYUBlZHVzby5hbnR3ZXJwZW4uYmUiLCJlbWFpbF92ZXJpZmllZCI6dHJ1ZSwibmJmIjoxNzQ3MDM2NDcxLCJuYW1lIjoiSXNtYWlsIEVsIEJvdWdhIiwiZ2l2ZW5fbmFtZSI6IklzbWFpbCIsImZhbWlseV9uYW1lIjoiRWwgQm91Z2EiLCJpYXQiOjE3NDcwMzY3NzEsImV4cCI6MTc0NzA0MDM3MSwianRpIjoiYjFhODgzODA0ZGE2MWFkMTAzNTAxMDBiNDBjN2M5YjFkOWM1OTU5NSJ9.LmAcPT9eZKz5wUa_R7n4PPL1IH4t_WzOexvJx_ohrG7bSDldyD--2WWtp-RJgGinGSM2PNOfUfGReyMmXG48WN1dco9NB1u-1huyokjWhCUp7I61AytzonN6hepqMsDb5K7QFueIKzBncUyI8Z8w1grBsOj8tbq1txusJc5brIyL8hYrGTfowIDSXIprKze3wN2ZaVdo3tXjvFfv06Q3Y3acFaJumRe5rc4qBOy_VtGRLwt5c2C2VAqnKUlEuopE7DcC6NbVuCLG-4hds_xyHP0HDR0gR4uKBHn0if5y8zW6K1xHE3UyTgndlsnzVK4WZUHMoc1xSWD3THXB3FwGVg"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "102713015824456850793",
+  "hd": "eduso.antwerpen.be",
+  "email": "ismail.elbouga@eduso.antwerpen.be",
+  "email_verified": "true",
+  "nbf": "1747036471",
+  "name": "Ismail El Bouga",
+  "given_name": "Ismail",
+  "family_name": "El Bouga",
+  "iat": "1747036771",
+  "exp": "1747040371",
+  "jti": "b1a883804da61ad10350100b40c7c9b1d9c59595",
+  "alg": "RS256",
+  "kid": "e14c37d6e5c756e8b72fdb5004c0cc356337924e",
+  "typ": "JWT"
+}
+
+Processing email: ismail.elbouga@eduso.antwerpen.be, Google ID: 102713015824456850793
+Number of rows found for email ismail.elbouga@eduso.antwerpen.be: 1
+User exists, klantID: 23, redirecting to: /index.php
+Request completed at 2025-05-12 09:59:32
+
+Request started at 2025-05-12 15:08:26
+Raw input: {"credential":"eyJhbGciOiJSUzI1NiIsImtpZCI6ImUxNGMzN2Q2ZTVjNzU2ZThiNzJmZGI1MDA0YzBjYzM1NjMzNzkyNGUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL2FjY291bnRzLmdvb2dsZS5jb20iLCJhenAiOiIxMDc4ODQ1OTE0NTA3LWcyNnRqdTgwcDRqc2plZmVibmtsamRwazlmaXY2NGJkLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiMTA3ODg0NTkxNDUwNy1nMjZ0anU4MHA0anNqZWZlYm5rbGpkcGs5Zml2NjRiZC5hcHBzLmdvb2dsZXVzZXJjb250ZW50LmNvbSIsInN1YiI6IjEwNjA2NDAwOTgwNzIyNzE3MTkyNCIsImVtYWlsIjoic2NyZWFtbWxncHJvQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJuYmYiOjE3NDcwNTUwMDUsIm5hbWUiOiJGdXJpIEh2SCIsInBpY3R1cmUiOiJodHRwczovL2xoMy5nb29nbGV1c2VyY29udGVudC5jb20vYS9BQ2c4b2NJMERzTkxhVFhJRGRPWTV6WmF6anJMVlRqbjRvRUI0WElpenZJV3FLTHIxb1dkNVlYdD1zOTYtYyIsImdpdmVuX25hbWUiOiJGdXJpIiwiZmFtaWx5X25hbWUiOiJIdkgiLCJpYXQiOjE3NDcwNTUzMDUsImV4cCI6MTc0NzA1ODkwNSwianRpIjoiMTQyNGE5NmU5YzZhZWJiMmJhNzc5ZmY1MDE4NmM1NDc4MjlmMjcyYSJ9.qCDEB2jFXHH2U_WF966k96zUY75BmmkZrHzeZ-uOYeIuv6kILccEu4GnWxgCdssTxDHJDXQFoOld3UbtUNmfQnWs96sew1RYRZ1nyEf4b85wepygo0WEI92pSg2YBoIvnui6c_jMEHPlFoMQBV5Ly6fmaBntc1b4Czmi_vNWKiFXC7gepBrjoS4Buyl5Y8vGXg9dlJF7ScEHRuclYl4N7pV_XPT47tujAXIRVtRMfd7KZTaVqDab-GixKcYeFEMW8HZAAT05ZJmn5kcZFsWhBcaPlAn6PhEgS9QruBTSZs080ZDfbm_fFDxO6mnFqlYmBXpljqEnwbiKNBk3wVHFKA"}
+Token response: {
+  "iss": "https://accounts.google.com",
+  "azp": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "aud": "1078845914507-g26tju80p4jsjefebnkljdpk9fiv64bd.apps.googleusercontent.com",
+  "sub": "106064009807227171924",
+  "email": "screammlgpro@gmail.com",
+  "email_verified": "true",
+  "nbf": "1747055005",
+  "name": "Furi HvH",
+  "picture": "https://lh3.googleusercontent.com/a/ACg8ocI0DsNLaTXIDdOY5zZazjrLVTjn4oEB4XIizvIWqKLr1oWd5YXt=s96-c",
+  "given_name": "Furi",
+  "family_name": "HvH",
+  "iat": "1747055305",
+  "exp": "1747058905",
+  "jti": "1424a96e9c6aebb2ba779ff50186c547829f272a",
+  "alg": "RS256",
+  "kid": "e14c37d6e5c756e8b72fdb5004c0cc356337924e",
+  "typ": "JWT"
+}
+
+Processing email: screammlgpro@gmail.com, Google ID: 106064009807227171924
+Number of rows found for email screammlgpro@gmail.com: 1
+User exists, klantID: 22, redirecting to: /index.php
+Request completed at 2025-05-12 15:08:26
+
